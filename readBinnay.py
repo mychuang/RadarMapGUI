@@ -7,17 +7,17 @@ Created on Sun Aug 22 13:36:55 2021
 
 import numpy as np
 
-with open('hgt.bin') as f:
+with open('Data/hgt.bin') as f:
     rectype = np.dtype(np.float64)
     bdata = np.fromfile(f, dtype=rectype)
 hgt = np.reshape(bdata, (1006, 1913))
 
-with open('lon.bin') as f:
+with open('Data/lon.bin') as f:
     rectype = np.dtype(np.float64)
     bdata = np.fromfile(f, dtype=rectype)
 lon = np.reshape(bdata, (1006, 1913))
 
-with open('lat.bin') as f:
+with open('Data/lat.bin') as f:
     rectype = np.dtype(np.float64)
     bdata = np.fromfile(f, dtype=rectype)
 lat = np.reshape(bdata, (1006, 1913))
