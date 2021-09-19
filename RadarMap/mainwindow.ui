@@ -19,30 +19,38 @@
      <rect>
       <x>30</x>
       <y>190</y>
-      <width>161</width>
+      <width>172</width>
       <height>241</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
      <item row="0" column="1">
-      <widget class="QComboBox" name="comboBox"/>
+      <widget class="QComboBox" name="hgtComboBox"/>
      </item>
      <item row="0" column="0">
-      <widget class="QLabel" name="label">
+      <widget class="QLabel" name="hgtLab">
        <property name="text">
         <string>Map height</string>
        </property>
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QLabel" name="label_2">
+      <widget class="QLabel" name="radarLab">
        <property name="text">
         <string>Radar</string>
        </property>
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QComboBox" name="comboBox_2"/>
+      <widget class="QComboBox" name="radComboBox">
+       <property name="styleSheet">
+        <string notr="true">QComboBox#radComboBox{
+     background-color: rgb(247, 240, 188);
+     font: 87 12pt Arial Black;
+	color: rgb(150, 39, 230)
+}</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
@@ -57,11 +65,11 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QGroupBox" name="groupBox">
+      <widget class="QGroupBox" name="radarModeBox">
        <property name="title">
-        <string>GroupBox</string>
+        <string>RadarMode</string>
        </property>
-       <widget class="QRadioButton" name="radioButton">
+       <widget class="QRadioButton" name="singleRadBtn">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -74,7 +82,7 @@
          <string>Single Radar</string>
         </property>
        </widget>
-       <widget class="QRadioButton" name="radioButton_2">
+       <widget class="QRadioButton" name="multiRadBtn">
         <property name="geometry">
          <rect>
           <x>20</x>
@@ -91,7 +99,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="submitBtn">
     <property name="geometry">
      <rect>
       <x>50</x>
