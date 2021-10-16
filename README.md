@@ -3,7 +3,7 @@
 - Nov. (Alpha) specture of SW
 - Dec. (Alpha) of UI
 - Jan. Alpha version of SW (include simple function)
-- Feb. V0.0.0 version debuging
+- Feb. V1.0.0 version debuging
 - Mar. Release V1.0.0 Version 
 - Apr. Release V1.0.1 Version
 - May. (Beta)  specture of SW
@@ -15,6 +15,7 @@
 
 ## Version Log
 - 2021/9/19 Miller: Create a folder to test Qt python
+- 2021/10/16 Miller: Create the specture of AP
 
 ## File description
 ### matlab_source folder
