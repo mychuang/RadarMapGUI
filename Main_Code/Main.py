@@ -1,5 +1,6 @@
 from Radar_fc import Radar_fc as RD
+import matplotlib.pyplot as plt
 
 RADAR = RD()
-RADAR.Plt()
+ppi_blocking=RADAR.ppi_blocking()
 
